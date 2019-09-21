@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>HouTai</display-name>
+  <servlet>
+    <servlet-name>TeacherServlet</servlet-name>
+    <servlet-class>servlet.TeacherServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExperienceServlet</servlet-name>
+    <servlet-class>servlet.ExperienceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CommunicateServlet</servlet-name>
+    <servlet-class>servlet.CommunicateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SubjectServlet</servlet-name>
+    <servlet-class>servlet.SubjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>NewsServlet</servlet-name>
+    <servlet-class>servlet.NewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClassimgServlet</servlet-name>
+    <servlet-class>servlet.ClassimgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IndeximgServlet</servlet-name>
+    <servlet-class>servlet.IndeximgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>servlet.AdminServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>TeacherServlet</servlet-name>
+    <url-pattern>/TeacherServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExperienceServlet</servlet-name>
+    <url-pattern>/ExperienceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommunicateServlet</servlet-name>
+    <url-pattern>/CommunicateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SubjectServlet</servlet-name>
+    <url-pattern>/SubjectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsServlet</servlet-name>
+    <url-pattern>/NewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClassimgServlet</servlet-name>
+    <url-pattern>/ClassimgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IndeximgServlet</servlet-name>
+    <url-pattern>/IndeximgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/AdminServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
